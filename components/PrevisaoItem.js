@@ -34,32 +34,32 @@ const PrevisaoItem = (props) => {
 
 const styles = StyleSheet.create({
     cartao: {
-        marginBottom: 8
+      marginBottom: 8
     },
     tela: {
-        flexDirection: 'row',
-        flex: 1,
-        justifyContent: 'space-evenly'
+      flexDirection: 'row',
+      flex: 1,
+      justifyContent: 'space-evenly'
     },
     primeiraLinha: {
-        justifyContent: 'center',
-        flexDirection: 'row'
+      justifyContent: 'center',
+      flexDirection: 'row'
     },
     segundaLinha: {
-        flex: 1,
-        flexDirection: 'row',
-        justifyContent: 'center',
-        marginTop: 4,
-        borderTopWidth: 1,
-    borderTopColor: '#DDD'
+      flex: 1,
+      flexDirection: 'row',
+      justifyContent: 'center',
+      marginTop: 4,
+      borderTopWidth: 1,
+      borderTopColor: '#DDD'
     },
     imagem: {
-        width: 50,
-        height: 50
-    }, 
+      width: 50,
+      height: 50
+    },
     valor: {
-        marginHorizontal: 2
+      marginHorizontal: 2
     }
-});
+  });
 
 export default PrevisaoItem;
